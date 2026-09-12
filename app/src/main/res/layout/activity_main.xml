@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Lista que va a mostrar los pokémones -->
+    <ListView
+        android:id="@+id/listViewPokemon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Spinner que se muestra mientras carga -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+</FrameLayout>
